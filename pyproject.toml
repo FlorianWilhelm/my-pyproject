@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+####################
+# Project Metadata #
+####################
+
+[project]
+name = "my-pyproject"
+description = "Description of my project"
+version = "0.1"
+requires-python = ">=3.10"
+
+# add your direct, abstract dependencies here
+dependencies = [
+    "numpy",
+]
+
+############################
+# Setuptools Configuration #
+############################
+
+[tool.setuptools]
+include-package-data = true  # include non-python files too
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
