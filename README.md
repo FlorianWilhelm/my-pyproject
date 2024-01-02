@@ -10,5 +10,5 @@ to create an installable Python package. So to test this:
 
 If you even wanted to build a proper sdist or wheel file you can do that with `pip install build` followed by `python -m build`. 
 
-That's it, nothing more to see here. Use and modify [pyproject.toml](pyroject.toml) for your own projects or even better,
+That's it, nothing more to see here 👀 Use and modify [pyproject.toml](./pyroject.toml) for your own projects or even better,
 if you are interested in a really professional Python project setup, check out [The Hatchlor](https://github.com/FlorianWilhelm/the-hatchlor) 🌹 
