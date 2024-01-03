@@ -1,12 +1,5 @@
-def fib(n):
-    """Fibonacci example function
-
-    Args:
-      n (int): integer
-
-    Returns:
-      int: n-th Fibonacci number
-    """
+def fib(n: int) -> int:
+    """Fibonacci example function"""
     assert n > 0
     a, b = 1, 1
     for _i in range(n - 1):
