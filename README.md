@@ -1,7 +1,7 @@
 # 🤜 Brutally simple Python package 🤛
 
 True to the motto, friends don't let friends fiddle with the PYTHONPATH,
-this repository shows how easy it is with a minimal [pyproject.toml](pyroject.toml)
+this repository shows how easy it is with a minimal [pyproject.toml](./pyproject.toml)
 to create an installable Python package. So to test this:
 
 1. clone this repository `git clone https://github.com/FlorianWilhelm/my_pyproject.git`,
